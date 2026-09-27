@@ -1,1 +1,15 @@
-{"name":"phone-cost-check","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","start":"node scripts/serve.mjs","test":"node tests/calculate.test.mjs","check":"node scripts/check.mjs"},"engines":{"node":">=20"}}
+{
+  "name": "phone-cost-check",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/build.mjs && node scripts/serve.mjs",
+    "test": "node tests/calculate.test.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
